@@ -1,2 +1,15 @@
-cat
-dog
+Giriş olmayan yol
+Taşıt trafiğine kapalı yol
+İleri ve sola mecburi yön
+İleri ve sağa mecburi yön
+İlerden sola mecburi yön
+Hız sınırlaması sonu (20 km/saat)
+Azami hız sınırlaması (30 km/saat)
+Azami hız sınırlaması (20 km/saat)
+İleriden sağa mecburi yön
+Sağa Dönülmez
+Sola Dönülmez
+Dur
+Park Yapılmaz
+Park Yeri
+Durak
