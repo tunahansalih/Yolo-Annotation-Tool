@@ -31,7 +31,7 @@ Before annotating bounding bozes choose which class to annotate.
 After finishing annotating all images
 
 ```
-run process.py
+process.py
 ```
 
 The dataset is ready for yolo training.
