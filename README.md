@@ -9,7 +9,7 @@ Before starting annotation, put image folder into the Images folder. Let my imag
 ```
 -main.py
 -process.py
--cklasses.txt
+-classes.txt
 -Images/
   -pics/
     -<image1>.png
