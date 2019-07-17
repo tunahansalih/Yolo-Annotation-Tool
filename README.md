@@ -10,8 +10,8 @@ Before starting annotation, put image folder into the Images folder. Let my imag
 -main.py
 -process.py
 -cklasses.txt
--Images/<br>
-  -pics/<br>
+-Images/
+  -pics/
     -<image1>.png
     -<image2>.png
     -<image3>.png
