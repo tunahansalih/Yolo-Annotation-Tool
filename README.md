@@ -4,11 +4,34 @@ This is new yolo annotation tool which is added new features. I have posted thre
 
 
 Do steps:
+
+Before starting annotation, put image folder into the Images folder. Let my image folder name be `pics` Project folder shold be like this:
 ```
-run main.py
-run process.py
+-main.py
+-process.py
+-cklasses.txt
+-Images/<br>
+  -pics/<br>
+    -<image1>.png
+    -<image2>.png
+    -<image3>.png
+    -...
+-Labels/
 ```
 
-NOTE: If you use this annotation tool, please create classes.txt file and write all classes what you train the objects. Because i read the all classes from classes.txt.
+Run below code with Python3
+```
+main.py
+```
+
+After running main.py, specify the image folder name that you put into `Images` folder. Just type `pics` into the Image Dir text box/
+
+Before annotating bounding bozes choose which class to annotate.
+
+After finishing annotating all images
+
+```
+run process.py
+```
 
 The dataset is ready for yolo training.
