@@ -5,7 +5,7 @@ This is new yolo annotation tool which is added new features. I have posted thre
 
 Do steps:
 
-Before starting annotation, put image folder into the Images folder. Let my image folder name be `pics` Project folder shold be like this:
+Before starting annotation, put image folder into the Images folder. Let my image folder name be `pics`, Project folder should be like this:
 ```
 -main.py
 -process.py
@@ -28,7 +28,7 @@ After running main.py, specify the image folder name that you put into `Images` 
 
 Before annotating bounding bozes choose which class to annotate.
 
-After finishing annotating all images
+After finishing annotating all images, run below file with Python3
 
 ```
 process.py
