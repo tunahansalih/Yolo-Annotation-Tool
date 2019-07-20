@@ -196,8 +196,11 @@ class LabelTool():
         self.clearBBox()
         # self.imagename = os.path.split(imagepath)[-1].split('.')[0]
         self.imagename = os.path.splitext(os.path.basename(imagepath))[0]
+        self.parent.title(f"Yolo Annotation Tool {self.imagename}")
+
         labelname = self.imagename + '.txt'
         self.labelfilename = os.path.join(self.outDir, labelname)
+
         bbox_cnt = 0
         if os.path.exists(self.labelfilename):
             with open(self.labelfilename) as f:
