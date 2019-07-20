@@ -48,6 +48,8 @@ class LabelTool():
         self.frame.pack(fill=BOTH, expand=1)
         self.parent.resizable(width=FALSE, height=FALSE)
 
+        self.screen_width = root.winfo_screenwidth()
+        self.screen_height = root.winfo_screenheight()
         # initialize global state
         self.imageDir = ''
         self.imageList = []
@@ -145,6 +147,7 @@ class LabelTool():
         self.frame.columnconfigure(1, weight=1)
         self.frame.rowconfigure(4, weight=1)
 
+
     def loadEntry(self, event):
         self.loadDir()
 
@@ -186,7 +189,9 @@ class LabelTool():
         # load image
         imagepath = self.imageList[self.cur - 1]
         self.img = Image.open(imagepath)
-        self.curimg_w, self.curimg_h = self.img.size
+        # self.curimg_w, self.curimg_h = self.img.size
+        self.curimg_w, self.curimg_h = (int(self.screen_width * 0.75), (int(self.screen_height * 0.75)))
+        self.img = self.img.resize((self.curimg_w, self.curimg_h))
         self.tkimg = ImageTk.PhotoImage(self.img)
         self.mainPanel.config(width=max(self.tkimg.width(), 400), height=max(self.tkimg.height(), 400))
         self.mainPanel.create_image(0, 0, image=self.tkimg, anchor=NW)
