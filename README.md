@@ -14,6 +14,7 @@ Before starting annotation, put image folder into the Images folder. Let my imag
     -<image3>.png
     -...
 -Labels/
+  -pics/
 ```
 
 Run below code with Python3
