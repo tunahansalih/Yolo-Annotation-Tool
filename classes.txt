@@ -1,15 +1,18 @@
-Giriş olmayan yol
-Taşıt trafiğine kapalı yol
-İleri ve sola mecburi yön
-İleri ve sağa mecburi yön
-İlerden sola mecburi yön
-Hız sınırlaması sonu (20 km/saat)
-Azami hız sınırlaması (30 km/saat)
-Azami hız sınırlaması (20 km/saat)
-İleriden sağa mecburi yön
-Sağa Dönülmez
-Sola Dönülmez
-Dur
-Park Yapılmaz
-Park Yeri
-Durak
+LEFT
+RIGHT
+FORWARD_LEFT
+FORWARD_RIGHT
+NO_LEFT_TURN
+NO_RIGHT_TURN
+NO_ENTRY
+NO_VEHICLES
+STOP
+NO_PARKING
+PARKING
+SPEED_LIMIT_20
+SPEED_LIMIT_30
+END_SPEED_LIMIT_20
+DURAK
+GREEN_LIGHT
+YELLOW_LIGHT
+RED_LIGHT
