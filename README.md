@@ -24,12 +24,7 @@ main.py
 
 After running main.py, specify the image folder name that you put into `Images` folder. Just type `pics` into the `Image Dir` text box.
 
-Before annotating bounding bozes choose which class to annotate.
+Before annotating bounding boxes, choose which class to annotate.
 
-After finishing annotating all images, run below file with Python3
-
-```
-process.py
-```
 
 The dataset is ready for yolo training.
