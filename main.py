@@ -263,7 +263,7 @@ class LabelTool():
         # self.curimg_w, self.curimg_h = self.img.size
         self.width_to_height = self.img.width / self.img.height
         if self.width_to_height > 1.0:
-            self.self.curimg_w = int(self.screen_width * 0.8)
+            self.curimg_w = int(self.screen_width * 0.8)
             self.curimg_h = int(self.curimg_w / self.width_to_height)
         else:
             self.curimg_h = int(self.screen_height * 0.8)
